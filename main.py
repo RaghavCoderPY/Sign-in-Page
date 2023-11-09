@@ -5,7 +5,7 @@ import time
 colorama.init(autoreset=True)
 
 
-def rest(seconds: float, printing: str):
+def rest(seconds: float, printing: str = ""):
     time.sleep(seconds)
     print(printing)
 
@@ -19,6 +19,7 @@ MAGENTA = colorama.Fore.MAGENTA
 
 year = int(time.strftime("%Y"))
 print("Welcome to my company")
+rest(1.5)
 print(BLUE + "Before you work sign up to the game".center(30, "-"))
 
 # Sign in
@@ -38,5 +39,6 @@ basicInfo = {
     "pass": password
 }
 
+rest(0.5)
 print(f"Welcome to the {YELLOW + "MY COMPANY!"}")
 
