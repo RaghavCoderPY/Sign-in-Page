@@ -18,8 +18,8 @@ YELLOW = colorama.Fore.YELLOW
 MAGENTA = colorama.Fore.MAGENTA
 
 year = int(time.strftime("%Y"))
-print("Welcome to poor to rich journey")
-print(BLUE + "Before you play sign up to the game".center(30, "-"))
+print("Welcome to my company")
+print(BLUE + "Before you work sign up to the game".center(30, "-"))
 
 # Sign in
 name = input("Enter your name: ")
@@ -38,5 +38,5 @@ basicInfo = {
     "pass": password
 }
 
-print(f"Welcome to the {YELLOW + "GAME!"}")
+print(f"Welcome to the {YELLOW + "MY COMPANY!"}")
 
